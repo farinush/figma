@@ -1,0 +1,308 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blog-page</title>
+    <link rel="stylesheet" href="./public/css/main.css">
+</head>
+<body>
+    <div class="wrapper dark:bg-[#262e3d]/[0.9]">
+      <button class="btn fixed left-[20px] top-[80px] w-[30px] h-[30px] bg-[#2b2b2b] dark:bg-[white] text-white text-center leading-[30px] rounded-[50%] captalize text-[12px] ps-[3px]"><svg xmlns:xlink="http://www.w3.org/1999/xlink" xmlns="http://www.w3.org/2000/svg" class="sc-bdvvtL daxvMa icon icon-brightness" width="24" height="24"><defs><symbol id="si_brightness" viewBox="0 0 24 24"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zm-2 5.79V18h-3.52L12 20.48 9.52 18H6v-3.52L3.52 12 6 9.52V6h3.52L12 3.52 14.48 6H18v3.52L20.48 12 18 14.48zM12 6v12c3.31 0 6-2.69 6-6s-2.69-6-6-6z"></path></symbol></defs><g fill="#6F7285"><path d="M0 0h24v24H0V0z" fill="none"></path><path d="M20 8.69V4h-4.69L12 .69 8.69 4H4v4.69L.69 12 4 15.31V20h4.69L12 23.31 15.31 20H20v-4.69L23.31 12 20 8.69zm-2 5.79V18h-3.52L12 20.48 9.52 18H6v-3.52L3.52 12 6 9.52V6h3.52L12 3.52 14.48 6H18v3.52L20.48 12 18 14.48zM12 6v12c3.31 0 6-2.69 6-6s-2.69-6-6-6z"></path></g></svg></button>
+      <div class="navbar lg:w-[100%] lg:h-[92px] dark:bg-[#262e3d] lg:bg-[#1C1E53] lg:mx-auto lg:flex 
+      w-[100%] h-[92px] bg-[#1C1E53] flex  items-center gap-x-[15px] pt-[5px] px-[30px]">
+      <label for="show" class="lg:hidden block cursor-pointer ">
+        <div class="lines lg:hidden block pt-[7px] ps-[6px] rounded-[10px] bg-[#FCD980]  w-[40px] h-[40px] border-[1px] border-[#1C1E53]">
+          <div class="w-[80%] lg:hidden h-[4px] bg-[#1C1E53]"></div>
+          <div class="w-[80%] mt-[7px] lg:hidden h-[2px] bg-[#1C1E53]"></div>
+          <div class="w-[80%] mt-[7px] lg:hidden h-[4px] bg-[#1C1E53]"></div>
+        </div>
+      </label>
+      <input type="radio" name="menu" id="show" class=" lg:hidden hidden">
+      <input type="radio" name="menu" id="close" class="lg:hidden hidden">
+      <div class="navparent transition-all pe-[20px] pt-[30px] ps-[30px]  capitalize w-[70%] h-[100vh] bg-[gray]/[0.9] absolute left-[-100%] top-0 lg:hidden  lg:w-[1290px]  lg:h-[92px] lg:justify-end lg:gap-x-[32px] lg:items-center">
+        <a href="./index.html" class="lg:block block w-[100%] h-[50px] lg:w-[48px] lg:h-[29.9px] lg:capitalize text-white pt-[10px] ps-[10px] rounded-[15px] hover:bg-[#FCD980] hover:text-[#1C1E53]"><span>home</span></a>
+      <a href="./about-us.html" class="lg:block block w-[100%] h-[50px] lg:w-[72px] lg:h-[29.9px] lg:capitalize text-[#BBBBCB] pt-[10px] ps-[10px] rounded-[15px] hover:bg-[#FCD980] hover:text-[#1C1E53] "><span>about us</span></a>
+      <a href="./features.html" class="lg:block block w-[100%] h-[50px] lg:w-[72px] lg:h-[29.9px] lg:capitalize text-[#BBBBCB] pt-[10px] ps-[10px] rounded-[15px] hover:bg-[#FCD980] hover:text-[#1C1E53] "><span>features</span></a>
+      <a href="./pricing.html" class="lg:block block w-[100%] h-[50px] lg:w-[55px] lg:h-[29.9px] lg:capitalize text-[#BBBBCB] pt-[10px] ps-[10px] rounded-[15px] hover:bg-[#FCD980] hover:text-[#1C1E53] "><span>pricing</span></a>
+      <a href="./privacy-policy.html" class="lg:block block w-[100%] h-[50px] lg:w-[32px] lg:h-[29.9px] lg:capitalize text-[#BBBBCB] pt-[10px] ps-[10px] rounded-[15px] hover:bg-[#FCD980] hover:text-[#1C1E53] "><span>FAQ</span></a>
+      <a href="./blog-page.html" class="lg:block block w-[100%] h-[50px] lg:w-[36px] lg:h-[29.9px] lg:capitalize text-[#BBBBCB] pt-[10px] ps-[10px] rounded-[15px] hover:bg-[#FCD980] hover:text-[#1C1E53] "><span>blog</span></a>
+      <a href="./contact-us.html" class="lg:block block w-[40%] text-center leading-[45px] h-[50px] lg:w-[185px] lg:h-[60px] lg:capitalize text-white border-[1px] lg:border-[1px] rounded-[15px] lg:rounded-[41px] lg:text-center lg:border-[lightgray] lg:leading-[60px] hover:bg-[#FCD980]/[0.8] hover:text-[#1C1E53]"><span>contact us</span></a>
+      <label for="close" class="cursor-pointer lg:hidden w-[40px] h-[40px] text-center text-[white] absolute right-0 top-0">&times;</label>
+      </div> 
+        <div class="logo lg:w-[122px] lg:h-[24.7px] lg:px-[10%]">
+          <svg
+            width="122"
+            height="25"
+            viewBox="0 0 122 25"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <g clip-path="url(#clip0_13962_500)">
+              <path
+                d="M121.784 18.8719V21.891H119.252C116.549 21.806 115.105 20.3467 115.105 17.6055V10.7102H113.337V8.06174H115.105V5.09668H118.842V8.03086H121.699V10.6716H118.842V17.2349C118.842 18.1229 119.02 18.8333 120.387 18.8333L121.784 18.8719Z"
+                fill="white"
+              />
+              <path
+                d="M98.4416 15.0033V14.8026C98.4011 13.9145 98.5364 13.0272 98.8395 12.1914C99.1427 11.3557 99.6078 10.5881 100.208 9.93242C100.809 9.27679 101.532 8.7461 102.338 8.37076C103.144 7.99541 104.016 7.78281 104.904 7.74512C105.082 7.74512 105.267 7.74512 105.445 7.74512C108.974 7.74512 112.07 9.79904 112.07 14.6945V15.7369H102.264C102.364 17.9916 103.584 19.2656 105.638 19.2656C107.406 19.2656 108.232 18.4935 108.472 17.3661H112.001C111.568 20.308 109.221 21.945 105.507 21.945C101.43 21.9141 98.4416 19.3351 98.4416 15.0033ZM108.395 13.3741C108.263 11.3202 107.229 10.3318 105.43 10.3318C103.63 10.3318 102.596 11.4437 102.341 13.3741H108.395Z"
+                fill="white"
+              />
+              <path
+                d="M83.1838 15.0033V14.8026C83.1433 13.9157 83.278 13.0296 83.5802 12.1949C83.8824 11.3601 84.3462 10.5931 84.9449 9.93769C85.5437 9.28226 86.2658 8.75126 87.0699 8.37505C87.874 7.99883 88.7444 7.78478 89.6312 7.74512C89.8088 7.74512 89.9942 7.74512 90.1717 7.74512C93.7005 7.74512 96.8045 9.79904 96.8045 14.6945V15.7369H87.0059C87.1063 17.9916 88.3263 19.2656 90.3802 19.2656C92.1485 19.2656 92.9747 18.4935 93.214 17.3661H96.7428C96.3026 20.308 93.9553 21.945 90.2412 21.945C86.172 21.9141 83.1838 19.3351 83.1838 15.0033ZM93.1368 13.3741C93.0055 11.3202 91.9709 10.3318 90.1717 10.3318C88.3726 10.3318 87.3688 11.4746 87.0831 13.3664L93.1368 13.3741Z"
+                fill="white"
+              />
+              <path
+                d="M61.7725 8.03027H65.7259L68.1427 17.188L70.7912 8.03027H73.8798L76.2735 17.188L78.8216 8.03027H82.443L78.1498 21.6356H74.4435L72.127 13.0956L69.6484 21.6356H65.8958L61.7725 8.03027Z"
+                fill="white"
+              />
+              <path
+                d="M49.209 17.358H52.7377C52.8999 18.5858 53.5099 19.2884 55.1314 19.2884C56.583 19.2884 57.2548 18.7402 57.2548 17.8059C57.2548 16.8716 56.4827 16.4778 54.506 16.1998C50.8846 15.6516 49.487 14.6092 49.487 11.953C49.487 9.11918 52.0814 7.71387 54.892 7.71387C57.9111 7.71387 60.189 8.81032 60.5133 11.9375H57.0309C57.0087 11.6958 56.9388 11.4608 56.8252 11.2462C56.7117 11.0317 56.5567 10.8417 56.3693 10.6873C56.1819 10.533 55.9658 10.4173 55.7335 10.3469C55.5011 10.2766 55.2571 10.2529 55.0156 10.2774H54.8997C53.6797 10.2774 52.9694 10.8488 52.9694 11.6827C52.9694 12.5167 53.6257 12.8796 55.6178 13.1653C58.9999 13.6749 60.8916 14.532 60.8916 17.443C60.8916 20.354 58.7528 21.9137 55.17 21.9137C51.5872 21.9137 49.3094 20.2999 49.209 17.358Z"
+                fill="white"
+              />
+              <path
+                d="M34.2139 8.03H37.9511V10.1843C38.3723 9.39357 39.0117 8.74039 39.7933 8.30239C40.5748 7.86438 41.4657 7.65996 42.3601 7.71342C45.0085 7.71342 46.9312 9.32721 46.9312 13.0104V21.6662H43.2403V13.5509C43.2403 11.7054 42.5222 10.8252 40.8544 10.8252C40.5019 10.7945 40.1467 10.8337 39.8094 10.9406C39.4721 11.0476 39.1593 11.22 38.8888 11.4482C38.6183 11.6763 38.3955 11.9556 38.2333 12.2701C38.0711 12.5846 37.9725 12.928 37.9434 13.2806C37.9241 13.4448 37.9241 13.6107 37.9434 13.7748V21.6353H34.2139V8.03Z"
+                fill="white"
+              />
+              <path
+                d="M27.0022 4.60972C26.9887 4.2371 27.086 3.86885 27.2819 3.55157C27.4777 3.2343 27.7633 2.98228 28.1025 2.82742C28.4417 2.67256 28.8192 2.62182 29.1872 2.68162C29.5553 2.74143 29.8973 2.90909 30.17 3.16339C30.4427 3.41768 30.6338 3.74717 30.7191 4.11014C30.8044 4.4731 30.7801 4.85323 30.6493 5.20238C30.5184 5.55153 30.287 5.85401 29.9841 6.07153C29.6813 6.28904 29.3207 6.4118 28.948 6.42428H28.8785C28.6473 6.43891 28.4154 6.40774 28.1961 6.33255C27.9769 6.25736 27.7747 6.13963 27.6011 5.98611C27.4275 5.83258 27.2859 5.6463 27.1845 5.43793C27.083 5.22956 27.0237 5.00321 27.0099 4.77187C27.0035 4.71807 27.0009 4.66388 27.0022 4.60972ZM27.0022 8.03035H30.778V21.6357H27.0177L27.0022 8.03035Z"
+                fill="white"
+              />
+              <path
+                d="M12.7715 3.04199H24.709V6.33908H16.9874V11.2577H23.1029V14.4312H16.9797V21.6354H12.7715V3.04199Z"
+                fill="white"
+              />
+              <path
+                d="M5.56722 9.12683C5.56722 10.2928 5.56722 11.7135 3.96114 12.2927C5.60582 12.8563 5.56722 14.0532 5.56722 15.3041V19.937C5.56722 20.8172 5.92241 21.35 6.55557 21.4813C6.6947 21.5282 6.84127 21.5491 6.98797 21.543H8.53228V24.6316H5.98418C3.2662 24.6316 1.76823 23.0873 1.76823 20.2227V14.7404C1.74895 14.4589 1.62485 14.1949 1.42043 14.0005C1.216 13.8061 0.946116 13.6954 0.664051 13.6903H0V10.98H0.664051C0.951744 10.9762 1.22693 10.8618 1.43252 10.6605C1.63812 10.4592 1.75833 10.1865 1.76823 9.89899V4.33949C1.76823 1.52114 3.23532 0 5.98418 0H8.55544V3.04228H7.01114C6.86426 3.0427 6.71835 3.06615 6.57873 3.11177C5.94557 3.27392 5.59038 3.79899 5.59038 4.65608L5.56722 9.12683Z"
+                fill="white"
+              />
+            </g>
+            <defs>
+              <clipPath id="clip0_13962_500">
+                <rect width="122" height="24.7089" fill="white" />
+              </clipPath>
+            </defs>
+          </svg>
+        </div>
+        <div class="navparent hidden lg:w-[1290px] lg:me-[20px]  lg:h-[92px] lg:flex lg:justify-end lg:gap-x-[32px] lg:items-center">
+          <a href="./index.html" class="lg:block lg:w-[48px] lg:h-[29.9px] lg:capitalize lg:text-white "><span>home</span></a>
+        <a href="./about-us.html" class="lg:block lg:w-[72px] lg:h-[29.9px] lg:capitalize lg:text-[#BBBBCB] "><span>about us</span></a>
+        <a href="./features.html" class="lg:block lg:w-[72px] lg:h-[29.9px] lg:capitalize lg:text-[#BBBBCB] "><span>features</span></a>
+        <a href="./pricing.html" class="lg:block lg:w-[55px] lg:h-[29.9px] lg:capitalize lg:text-[#BBBBCB] "><span>pricing</span></a>
+        <a href="./privacy-policy.html" class="lg:block lg:w-[32px] lg:h-[29.9px] lg:capitalize lg:text-[#BBBBCB] "><span>FAQ</span></a>
+        <a href="./blog-page.html" class="lg:block lg:w-[36px] lg:h-[29.9px] lg:capitalize lg:text-[#BBBBCB] "><span>blog</span></a>
+        <a href="./contact-us.html" class="lg:block lg:w-[185px] lg:h-[60px] lg:capitalize lg:text-white lg:border-[1px] lg:rounded-[41px] lg:text-center lg:border-[lightgray] lg:leading-[60px]"><span>contact us</span></a>
+        </div>
+      </div>
+        <div class="heading lg:w-[949px] lg:h-[136px] lg:mt-[128px] lg:mx-auto w-[90%] mt-[80px] mx-[auto]">
+          <h2 class="lg:font-[poppins] lg:font-[600] lg:text-[#282938] lg:text-[48px] lg:leading-[64px] lg:text-center font-[poppins] font-[600] text-[#282938] text-[28px] leading-[64px] text-center dark:text-[#ececec]">A UX Case Study on Creating a Studious Environment for Students</h2>
+          <p class="lg:font-[poppins] lg:font-[500] lg:pt-[16px] lg:text-[#1C1E53]/[0.7] lg:text-[16px] lg:leading-[28px] lg:justify-center lg:text-center font-[poppins] font-[500] pt-[16px] text-[#1C1E53]/[0.7] text-[16px] leading-[28px] justify-center text-center dark:text-[#ececec]/[0.7]">Andrew Jonson Posted on 27th January 2021</p>
+        </div>
+        <div class="2xl:w-[1280px] lg:h-[477px] w-[80%] mx-auto lg:pt-[40px] pt-[32px]">
+          <img class="block w-[1280px] h-[477px] object-cover pb-[55px] pt-[25px] lg:pt-[40px]" src="./public/images/1.jpg" alt="#">
+      </div>
+      <p class="lg:font-[poppins] lg:w-[831px] mx-auto lg:font-[400] lg:pt-[30px] lg:text-[#1C1E53]/[0.7] lg:text-[16px] lg:leading-[28px] lg:justify-center lg:text-center font-[poppins] w-[90%] font-[500] text-[#1C1E53]/[0.7] text-[16px] leading-[28px] justify-center text-center dark:text-[#ececec]/[0.7]">Apparently we had reached a great height in the atmosphere, for the sky was a dead black, and the stars had ceased to twinkle. By the same illusion which lifts the horizon of the sea to the level of the spectator on a hillside.</p>
+      <p class="lg:font-[poppins] lg:w-[831px] mx-auto lg:font-[400] lg:pt-[16px] text-[#2405F2] lg:text-[16px] lg:leading-[28px] lg:justify-center lg:text-center font-[poppins] font-[500] pt-[16px] text-[#1C1E53]/[0.7] text-[16px] leading-[28px] justify-center text-center dark:text-[#eff17a]"><a href="./read-blog.html">Read more</a></p>
+      <h2 class="font-[poppins] lg:text-[48px] font-[600] lg:leading-[64px] leading-[36px] text-[#282938] text-[36px] text-center block lg:h-[64px] mt-[64px] lg:mt-[128px] dark:text-[#ececec]">Our Blog</h2>
+      <div class="blog  pb-[128px] xl:w-[1278px] xl:h-[1300px] w-[90%] h-auto justify-between mx-auto flex gap-y-[64px] gap-x-[32px] flex-wrap xl:mt-[48px] mt-[30px]">
+        
+        <div class="blog1 lg:w-[31.5%] lg:h-[593px] w-[70%] mx-auto">
+            <img class="block w-[100%] h-[285px] object-cover" src="./public/images/blog1.jpg" alt="#">
+            <h2 class="font-[poppinsR] text-[16px] font-[500] leading-[28px] text-[#282938] block pt-[32px] dark:text-[#ececec]/[0.7]">27 Jan 2021</h2>
+            <h6 class="font-[poppins] text-[24px] font-[400] leading-[36px] text-[#282938] block pt-[16px] dark:text-[#ececec]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+            <p class="lg:font-[poppinsR] lg:font-[400] lg:pt-[10px] lg:text-[#282938] lg:text-[16px] lg:leading-[28px] font-[poppins] font-[400] pt-[10px] text-[#282938] text-[16px] leading-[28px] dark:text-[#ececec]/[0.7]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+            <div class="flex">
+                <a href="#" class="font-[poppins] block text-[16px] font-[500] leading-[28px] text-[#1C1E53] pt-[20px] pr-[12px] dark:text-[#ececec]/[0.5]">Read More</a>
+            <img class="pt-[20px]" src="./public/images/svg/svg1.svg" alt="#">
+            </div> 
+                        
+        </div>
+        <div class="blog2 lg:w-[31.5%] lg:h-[593px] w-[70%] mx-auto">
+            <img class="block w-[100%] h-[285px] object-cover" src="./public/images/blog2.jpg" alt="#">
+            <h2 class="font-[poppinsR] text-[16px] font-[500] leading-[28px] text-[#282938] block pt-[32px] dark:text-[#ececec]/[0.7]">27 Jan 2021</h2>
+            <h6 class="font-[poppins] text-[24px] font-[400] leading-[36px] text-[#282938] block pt-[16px] dark:text-[#ececec]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+            <p class="lg:font-[poppinsR] lg:font-[400] lg:pt-[10px] lg:text-[#282938] lg:text-[16px] lg:leading-[28px] font-[poppins] font-[400] pt-[10px] text-[#282938] text-[16px] leading-[28px] dark:text-[#ececec]/[0.7]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+            <div class="flex">
+                <a href="#" class="font-[poppins] block text-[16px] font-[500] leading-[28px] text-[#1C1E53] pt-[20px] pr-[12px] dark:text-[#ececec]/[0.5]">Read More</a>
+            <img class="pt-[20px]" src="./public/images/svg/svg1.svg" alt="#">
+            </div>
+        </div>
+        <div class="blog3 lg:w-[31.5%] lg:h-[593px]  w-[70%] mx-auto">
+            <img class="block w-[100%] h-[285px] object-cover" src="./public/images/blog4.jpg" alt="#">
+            <h2 class="font-[poppinsR] text-[16px] font-[500] leading-[28px] text-[#282938] block pt-[32px] dark:text-[#ececec]/[0.7]">27 Jan 2021</h2>
+            <h6 class="font-[poppins] text-[24px] font-[400] leading-[36px] text-[#282938] block pt-[16px] dark:text-[#ececec]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+            <p class="lg:font-[poppinsR] lg:font-[400] lg:pt-[10px] lg:text-[#282938] lg:text-[16px] lg:leading-[28px] font-[poppins] font-[400] pt-[10px] text-[#282938] text-[16px] leading-[28px] dark:text-[#ececec]/[0.7]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+            <div class="flex">
+                <a href="#" class="font-[poppins] block text-[16px] font-[500] leading-[28px] text-[#1C1E53] pt-[20px] pr-[12px] dark:text-[#ececec]/[0.5]">Read More</a>
+            <img class="pt-[20px]" src="./public/images/svg/svg1.svg" alt="#">
+            </div>
+        </div>
+        <div class="blog4 lg:w-[31.5%] lg:h-[593px] w-[70%] mx-auto">
+            <img class="block w-[100%] h-[285px] object-cover" src="./public/images/blog3.jpg" alt="#">
+            <h2 class="font-[poppinsR] text-[16px] font-[500] leading-[28px] text-[#282938] block pt-[32px] dark:text-[#ececec]/[0.7]">27 Jan 2021</h2>
+            <h6 class="font-[poppins] text-[24px] font-[400] leading-[36px] text-[#282938] block pt-[16px] dark:text-[#ececec]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+            <p class="lg:font-[poppinsR] lg:font-[400] lg:pt-[10px] lg:text-[#282938] lg:text-[16px] lg:leading-[28px] font-[poppins] font-[400] pt-[10px] text-[#282938] text-[16px] leading-[28px] dark:text-[#ececec]/[0.7]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+            <div class="flex">
+                <a href="#" class="font-[poppins] block text-[16px] font-[500] leading-[28px] text-[#1C1E53] pt-[20px] pr-[12px] dark:text-[#ececec]/[0.5]">Read More</a>
+            <img class="pt-[20px]" src="./public/images/svg/svg1.svg" alt="#">
+            </div>
+        </div>
+        <div class="blog5 lg:w-[31.5%] lg:h-[593px] w-[70%] mx-auto">
+            <img class="block w-[100%] h-[285px] object-cover" src="./public/images/blog5.jpg" alt="#">
+            <h2 class="font-[poppinsR] text-[16px] font-[500] leading-[28px] text-[#282938] block pt-[32px] dark:text-[#ececec]/[0.7]">27 Jan 2021</h2>
+            <h6 class="font-[poppins] text-[24px] font-[400] leading-[36px] text-[#282938] block pt-[16px] dark:text-[#ececec]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+            <p class="lg:font-[poppinsR] lg:font-[400] lg:pt-[10px] lg:text-[#282938] lg:text-[16px] lg:leading-[28px] font-[poppins] font-[400] pt-[10px] text-[#282938] text-[16px] leading-[28px] dark:text-[#ececec]/[0.7]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+            <div class="flex">
+                <a href="#" class="font-[poppins] block text-[16px] font-[500] leading-[28px] text-[#1C1E53] pt-[20px] pr-[12px] dark:text-[#ececec]/[0.5]">Read More</a>
+            <img class="pt-[20px]" src="./public/images/svg/svg1.svg" alt="#">
+            </div>
+        </div>
+        <div class="blog6 lg:w-[31.5%] lg:h-[593px] w-[70%] mx-auto">
+            <img class="block w-[100%] h-[285px] object-cover" src="./public/images/blog6.jpg" alt="#">
+            <h2 class="font-[poppinsR] text-[16px] font-[500] leading-[28px] text-[#282938] block pt-[32px] dark:text-[#ececec]/[0.7]">27 Jan 2021</h2>
+            <h6 class="font-[poppins] text-[24px] font-[400] leading-[36px] text-[#282938] block pt-[16px] dark:text-[#ececec]">How one Webflow user grew his single person consultancy from $0-100K in 14 months</h6>
+            <p class="lg:font-[poppinsR] lg:font-[400] lg:pt-[10px] lg:text-[#282938] lg:text-[16px] lg:leading-[28px] font-[poppins] font-[400] pt-[10px] text-[#282938] text-[16px] leading-[28px] dark:text-[#ececec]/[0.7]">See how pivoting to Webflow changed one person’s sales strategy and allowed him to attract</p>
+            <div class="flex">
+                <a href="#" class="font-[poppins] block text-[16px] font-[500] leading-[28px] text-[#1C1E53] pt-[20px] pr-[12px] dark:text-[#ececec]/[0.5]">Read More</a>
+            <img class="pt-[20px]" src="./public/images/svg/svg1.svg" alt="#">
+            </div>
+        </div>
+      </div>
+      <div class="footer lg:w-[100%] dark:bg-[#262e3d]  lg:bg-[#1C1E53] lg:mx-auto lg:pt-[96px] pt-[20px]  w-[100%]  bg-[#1C1E53] mx-auto ">
+        <div class="content  justify-evenly dark:bg-[#262e3d]  lg:bg-[#1C1E53] lg:ps-[10px] lg:flex w-[100%] h-[206px] bg-[#1C1E53] flex ">
+            <div class="logo lg:ms-0 lg:mt-[10px] lg:w-[33%] lg:block mt-[20px] ms-[20px] w-[40%]">
+              <svg
+                width="122"
+                height="25"
+                viewBox="0 0 122 25"
+                fill="none"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <g clip-path="url(#clip0_13962_500)">
+                  <path
+                    d="M121.784 18.8719V21.891H119.252C116.549 21.806 115.105 20.3467 115.105 17.6055V10.7102H113.337V8.06174H115.105V5.09668H118.842V8.03086H121.699V10.6716H118.842V17.2349C118.842 18.1229 119.02 18.8333 120.387 18.8333L121.784 18.8719Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M98.4416 15.0033V14.8026C98.4011 13.9145 98.5364 13.0272 98.8395 12.1914C99.1427 11.3557 99.6078 10.5881 100.208 9.93242C100.809 9.27679 101.532 8.7461 102.338 8.37076C103.144 7.99541 104.016 7.78281 104.904 7.74512C105.082 7.74512 105.267 7.74512 105.445 7.74512C108.974 7.74512 112.07 9.79904 112.07 14.6945V15.7369H102.264C102.364 17.9916 103.584 19.2656 105.638 19.2656C107.406 19.2656 108.232 18.4935 108.472 17.3661H112.001C111.568 20.308 109.221 21.945 105.507 21.945C101.43 21.9141 98.4416 19.3351 98.4416 15.0033ZM108.395 13.3741C108.263 11.3202 107.229 10.3318 105.43 10.3318C103.63 10.3318 102.596 11.4437 102.341 13.3741H108.395Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M83.1838 15.0033V14.8026C83.1433 13.9157 83.278 13.0296 83.5802 12.1949C83.8824 11.3601 84.3462 10.5931 84.9449 9.93769C85.5437 9.28226 86.2658 8.75126 87.0699 8.37505C87.874 7.99883 88.7444 7.78478 89.6312 7.74512C89.8088 7.74512 89.9942 7.74512 90.1717 7.74512C93.7005 7.74512 96.8045 9.79904 96.8045 14.6945V15.7369H87.0059C87.1063 17.9916 88.3263 19.2656 90.3802 19.2656C92.1485 19.2656 92.9747 18.4935 93.214 17.3661H96.7428C96.3026 20.308 93.9553 21.945 90.2412 21.945C86.172 21.9141 83.1838 19.3351 83.1838 15.0033ZM93.1368 13.3741C93.0055 11.3202 91.9709 10.3318 90.1717 10.3318C88.3726 10.3318 87.3688 11.4746 87.0831 13.3664L93.1368 13.3741Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M61.7725 8.03027H65.7259L68.1427 17.188L70.7912 8.03027H73.8798L76.2735 17.188L78.8216 8.03027H82.443L78.1498 21.6356H74.4435L72.127 13.0956L69.6484 21.6356H65.8958L61.7725 8.03027Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M49.209 17.358H52.7377C52.8999 18.5858 53.5099 19.2884 55.1314 19.2884C56.583 19.2884 57.2548 18.7402 57.2548 17.8059C57.2548 16.8716 56.4827 16.4778 54.506 16.1998C50.8846 15.6516 49.487 14.6092 49.487 11.953C49.487 9.11918 52.0814 7.71387 54.892 7.71387C57.9111 7.71387 60.189 8.81032 60.5133 11.9375H57.0309C57.0087 11.6958 56.9388 11.4608 56.8252 11.2462C56.7117 11.0317 56.5567 10.8417 56.3693 10.6873C56.1819 10.533 55.9658 10.4173 55.7335 10.3469C55.5011 10.2766 55.2571 10.2529 55.0156 10.2774H54.8997C53.6797 10.2774 52.9694 10.8488 52.9694 11.6827C52.9694 12.5167 53.6257 12.8796 55.6178 13.1653C58.9999 13.6749 60.8916 14.532 60.8916 17.443C60.8916 20.354 58.7528 21.9137 55.17 21.9137C51.5872 21.9137 49.3094 20.2999 49.209 17.358Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M34.2139 8.03H37.9511V10.1843C38.3723 9.39357 39.0117 8.74039 39.7933 8.30239C40.5748 7.86438 41.4657 7.65996 42.3601 7.71342C45.0085 7.71342 46.9312 9.32721 46.9312 13.0104V21.6662H43.2403V13.5509C43.2403 11.7054 42.5222 10.8252 40.8544 10.8252C40.5019 10.7945 40.1467 10.8337 39.8094 10.9406C39.4721 11.0476 39.1593 11.22 38.8888 11.4482C38.6183 11.6763 38.3955 11.9556 38.2333 12.2701C38.0711 12.5846 37.9725 12.928 37.9434 13.2806C37.9241 13.4448 37.9241 13.6107 37.9434 13.7748V21.6353H34.2139V8.03Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M27.0022 4.60972C26.9887 4.2371 27.086 3.86885 27.2819 3.55157C27.4777 3.2343 27.7633 2.98228 28.1025 2.82742C28.4417 2.67256 28.8192 2.62182 29.1872 2.68162C29.5553 2.74143 29.8973 2.90909 30.17 3.16339C30.4427 3.41768 30.6338 3.74717 30.7191 4.11014C30.8044 4.4731 30.7801 4.85323 30.6493 5.20238C30.5184 5.55153 30.287 5.85401 29.9841 6.07153C29.6813 6.28904 29.3207 6.4118 28.948 6.42428H28.8785C28.6473 6.43891 28.4154 6.40774 28.1961 6.33255C27.9769 6.25736 27.7747 6.13963 27.6011 5.98611C27.4275 5.83258 27.2859 5.6463 27.1845 5.43793C27.083 5.22956 27.0237 5.00321 27.0099 4.77187C27.0035 4.71807 27.0009 4.66388 27.0022 4.60972ZM27.0022 8.03035H30.778V21.6357H27.0177L27.0022 8.03035Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M12.7715 3.04199H24.709V6.33908H16.9874V11.2577H23.1029V14.4312H16.9797V21.6354H12.7715V3.04199Z"
+                    fill="white"
+                  />
+                  <path
+                    d="M5.56722 9.12683C5.56722 10.2928 5.56722 11.7135 3.96114 12.2927C5.60582 12.8563 5.56722 14.0532 5.56722 15.3041V19.937C5.56722 20.8172 5.92241 21.35 6.55557 21.4813C6.6947 21.5282 6.84127 21.5491 6.98797 21.543H8.53228V24.6316H5.98418C3.2662 24.6316 1.76823 23.0873 1.76823 20.2227V14.7404C1.74895 14.4589 1.62485 14.1949 1.42043 14.0005C1.216 13.8061 0.946116 13.6954 0.664051 13.6903H0V10.98H0.664051C0.951744 10.9762 1.22693 10.8618 1.43252 10.6605C1.63812 10.4592 1.75833 10.1865 1.76823 9.89899V4.33949C1.76823 1.52114 3.23532 0 5.98418 0H8.55544V3.04228H7.01114C6.86426 3.0427 6.71835 3.06615 6.57873 3.11177C5.94557 3.27392 5.59038 3.79899 5.59038 4.65608L5.56722 9.12683Z"
+                    fill="white"
+                  />
+                </g>
+                <defs>
+                  <clipPath id="clip0_13962_500">
+                    <rect width="122" height="24.7089" fill="white" />
+                  </clipPath>
+                </defs>
+              </svg>
+              <p class="lg:w-[399px]  mt-[30px] lg:font-[poppins] lg:text-white lg:text-[500] lg:text-[16px] lg:leading-[28px]  font-[poppins] text-white text-[500] text-[12px] leading-[28px]">We are always open to discuss your project and improve your online presence.</p>
+            </div>
+            <div class="talk lg:w-[40%] lg:ms-0 w-[33%]  ms-[10%]">
+              <h2 class="lg:block  lg:ps-[100px] lg:mt-0 lg:font-[poppins] lg:text-white lg:font-[600] lg:text-[48px] lg:leading-[64px] block mt-0 font-[poppins] text-white font-[600] text-[32px] leading-[64px]">Lets Talk!</h2>
+            <p class="2xl:w-[70%]  lg:ps-[100px] lg:mt-[14px] lg:font-[poppins] lg:text-white lg:font-[400] lg:text-[16px] lg:leading-[28px]  mt-[14px] font-[poppins] text-white font-[400] text-[12px] leading-[28px] ">We are always open to discuss your project, improve your online presence and help with your UX/UI design challenges.</p>
+            <div class="icon lg:flex lg:mt-[30px] xl:mt-[40px] lg:ps-[100px] lg:gap-[26px] flex mt-[15px] gap-[26px]">
+              <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_14123_113)">
+                <path d="M16 8C16 3.58172 12.4183 0 8 0C3.58172 0 0 3.58172 0 8C0 11.993 2.92547 15.3027 6.75 15.9028V10.3125H4.71875V8H6.75V6.2375C6.75 4.2325 7.94438 3.125 9.77172 3.125C10.6467 3.125 11.5625 3.28125 11.5625 3.28125V5.25H10.5538C9.56 5.25 9.25 5.86672 9.25 6.5V8H11.4688L11.1141 10.3125H9.25V15.9028C13.0745 15.3027 16 11.993 16 8Z" fill="white"/>
+                </g>
+                <defs>
+                <clipPath id="clip0_14123_113">
+                <rect width="16" height="16" fill="white"/>
+                </clipPath>
+                </defs>
+                </svg>
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_14123_115)">
+                  <path d="M5.69945 14.5005C11.7357 14.5005 15.0382 9.49829 15.0382 5.16173C15.0382 5.0211 15.0351 4.87735 15.0288 4.73673C15.6713 4.27213 16.2257 3.69666 16.666 3.03735C16.0677 3.30356 15.4324 3.47741 14.782 3.55298C15.4669 3.14243 15.9797 2.49747 16.2254 1.73767C15.5811 2.11953 14.8764 2.3889 14.1416 2.53423C13.6466 2.0082 12.992 1.6599 12.2791 1.54319C11.5663 1.42648 10.8348 1.54786 10.1978 1.88855C9.56088 2.22925 9.05388 2.77029 8.75525 3.42803C8.45661 4.08577 8.38297 4.82357 8.5457 5.52735C7.24101 5.46188 5.96464 5.12296 4.79934 4.53255C3.63403 3.94215 2.60581 3.11345 1.78133 2.10017C1.36228 2.82265 1.23405 3.67759 1.4227 4.49122C1.61135 5.30485 2.10272 6.01612 2.79695 6.48048C2.27577 6.46393 1.766 6.32361 1.30977 6.0711V6.11173C1.3093 6.86992 1.57141 7.60488 2.05156 8.19167C2.5317 8.77846 3.20023 9.18086 3.94352 9.33048C3.46072 9.46257 2.954 9.48182 2.46258 9.38673C2.67232 10.0388 3.0804 10.6091 3.62986 11.018C4.17933 11.427 4.84276 11.6542 5.52758 11.668C4.36497 12.5812 2.9288 13.0766 1.45039 13.0742C1.18821 13.0738 0.926282 13.0578 0.666016 13.0261C2.16792 13.9897 3.91504 14.5014 5.69945 14.5005Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_14123_115">
+                  <rect width="16" height="16" fill="white" transform="translate(0.666016)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  
+                <svg width="17" height="16" viewBox="0 0 17 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_14123_117)">
+                  <path d="M8.33399 1.44062C10.4715 1.44062 10.7246 1.45 11.5652 1.4875C12.3465 1.52187 12.7684 1.65313 13.0496 1.7625C13.4215 1.90625 13.6902 2.08125 13.9684 2.35938C14.2496 2.64062 14.4215 2.90625 14.5652 3.27813C14.6746 3.55938 14.8059 3.98438 14.8402 4.7625C14.8777 5.60625 14.8871 5.85938 14.8871 7.99375C14.8871 10.1313 14.8777 10.3844 14.8402 11.225C14.8059 12.0063 14.6746 12.4281 14.5652 12.7094C14.4215 13.0813 14.2465 13.35 13.9684 13.6281C13.6871 13.9094 13.4215 14.0813 13.0496 14.225C12.7684 14.3344 12.3434 14.4656 11.5652 14.5C10.7215 14.5375 10.4684 14.5469 8.33399 14.5469C6.19649 14.5469 5.94336 14.5375 5.10274 14.5C4.32148 14.4656 3.89961 14.3344 3.61836 14.225C3.24648 14.0813 2.97773 13.9063 2.69961 13.6281C2.41836 13.3469 2.24648 13.0813 2.10273 12.7094C1.99336 12.4281 1.86211 12.0031 1.82773 11.225C1.79023 10.3813 1.78086 10.1281 1.78086 7.99375C1.78086 5.85625 1.79023 5.60313 1.82773 4.7625C1.86211 3.98125 1.99336 3.55938 2.10273 3.27813C2.24648 2.90625 2.42148 2.6375 2.69961 2.35938C2.98086 2.07812 3.24648 1.90625 3.61836 1.7625C3.89961 1.65313 4.32461 1.52187 5.10274 1.4875C5.94336 1.45 6.19649 1.44062 8.33399 1.44062ZM8.33399 0C6.16211 0 5.89023 0.009375 5.03711 0.046875C4.18711 0.084375 3.60273 0.221875 3.09648 0.41875C2.56836 0.625 2.12148 0.896875 1.67773 1.34375C1.23086 1.7875 0.958984 2.23438 0.752734 2.75938C0.555859 3.26875 0.418359 3.85 0.380859 4.7C0.343359 5.55625 0.333984 5.82812 0.333984 8C0.333984 10.1719 0.343359 10.4438 0.380859 11.2969C0.418359 12.1469 0.555859 12.7313 0.752734 13.2375C0.958984 13.7656 1.23086 14.2125 1.67773 14.6562C2.12148 15.1 2.56836 15.375 3.09336 15.5781C3.60273 15.775 4.18398 15.9125 5.03398 15.95C5.88711 15.9875 6.15898 15.9969 8.33086 15.9969C10.5027 15.9969 10.7746 15.9875 11.6277 15.95C12.4777 15.9125 13.0621 15.775 13.5684 15.5781C14.0934 15.375 14.5402 15.1 14.984 14.6562C15.4277 14.2125 15.7027 13.7656 15.9059 13.2406C16.1027 12.7313 16.2402 12.15 16.2777 11.3C16.3152 10.4469 16.3246 10.175 16.3246 8.00313C16.3246 5.83125 16.3152 5.55938 16.2777 4.70625C16.2402 3.85625 16.1027 3.27188 15.9059 2.76562C15.709 2.23438 15.4371 1.7875 14.9902 1.34375C14.5465 0.9 14.0996 0.625 13.5746 0.421875C13.0652 0.225 12.484 0.0875 11.634 0.05C10.7777 0.009375 10.5059 0 8.33399 0Z" fill="white"/>
+                  <path d="M8.33398 3.89062C6.06523 3.89062 4.22461 5.73125 4.22461 8C4.22461 10.2688 6.06523 12.1094 8.33398 12.1094C10.6027 12.1094 12.4434 10.2688 12.4434 8C12.4434 5.73125 10.6027 3.89062 8.33398 3.89062ZM8.33398 10.6656C6.86211 10.6656 5.66836 9.47188 5.66836 8C5.66836 6.52813 6.86211 5.33437 8.33398 5.33437C9.80586 5.33437 10.9996 6.52813 10.9996 8C10.9996 9.47188 9.80586 10.6656 8.33398 10.6656Z" fill="white"/>
+                  <path d="M13.5652 3.72793C13.5652 4.25918 13.134 4.68731 12.6059 4.68731C12.0746 4.68731 11.6465 4.25606 11.6465 3.72793C11.6465 3.19668 12.0777 2.76855 12.6059 2.76855C13.134 2.76855 13.5652 3.19981 13.5652 3.72793Z" fill="white"/>
+                  </g>
+                  <defs>
+                  <clipPath id="clip0_14123_117">
+                  <rect width="16" height="16" fill="white" transform="translate(0.333984)"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+                  <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <g clip-path="url(#clip0_14123_122)">
+                    <path d="M14.8156 0H1.18125C0.528125 0 0 0.515625 0 1.15313V14.8438C0 15.4813 0.528125 16 1.18125 16H14.8156C15.4688 16 16 15.4813 16 14.8469V1.15313C16 0.515625 15.4688 0 14.8156 0ZM4.74687 13.6344H2.37188V5.99687H4.74687V13.6344ZM3.55938 4.95625C2.79688 4.95625 2.18125 4.34062 2.18125 3.58125C2.18125 2.82188 2.79688 2.20625 3.55938 2.20625C4.31875 2.20625 4.93437 2.82188 4.93437 3.58125C4.93437 4.3375 4.31875 4.95625 3.55938 4.95625ZM13.6344 13.6344H11.2625V9.92188C11.2625 9.0375 11.2469 7.89687 10.0281 7.89687C8.79375 7.89687 8.60625 8.8625 8.60625 9.85938V13.6344H6.2375V5.99687H8.5125V7.04063H8.54375C8.85938 6.44063 9.63438 5.80625 10.7875 5.80625C13.1906 5.80625 13.6344 7.3875 13.6344 9.44375V13.6344Z" fill="white"/>
+                    </g>
+                    <defs>
+                    <clipPath id="clip0_14123_122">
+                    <rect width="16" height="16" fill="white"/>
+                    </clipPath>
+                    </defs>
+                    </svg>
+            </div>
+            </div>
+          </div>
+          <div class="contact flex lg:mt-0 lg:w-[40%] xl:w-[33%] lg:h-[95px] lg:ms-[8%]  w-[100%] mt-[86px] h-[95px] bg-[#FCD980] " >
+            <div class="w-[50%] h-[95px] flex flex-col justify-start mt-[18px] lg:ps-0 ps-[50px]">
+              <p class="lg:font-[poppinsR] lg:font-[500] lg:text-[18px]  lg:text-[#282938] ps-[15%] font-[poppinsR] font-[500] text-[18px] leading-[32px] text-[#282938]">Email me at</p>
+              <p class="lg:font-[poppinsR] lg:font-[300] lg:text-[16px]   lg:text-[#282938] ps-[15%] font-[poppinsR] font-[300] text-[16px] leading-[28px] text-[#282938]">contact@website.com</p>
+            </div>
+            <div class="w-[50%] flex h-[95px] flex-col justify-start mt-[18px] ps-[50px] lg:ps-0">
+              <p class="lg:font-[poppinsR] lg:font-[500] lg:text-[18px] lg:leading-[32px] lg:text-[#282938] ps-[15%] font-[poppinsR] font-[500] text-[18px] leading-[32px] text-[#282938]">Call us</p>
+              <p class="lg:font-[poppinsR] lg:font-[300] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] ps-[15%] font-[poppinsR] font-[300] text-[16px] leading-[28px] text-[#282938]">0927 6277 28525</p>
+            </div>
+          </div>
+      </div>
+      <div class="links lg:w-[100%] lg:h-[92px] dark:bg-[#262e3d]/[0.6] lg:bg-white lg:flex lg:flex-row lg:gap-x-[32px] lg:justify-between lg:items-center w-[100%] h-[92px] bg-white flex-col gap-[40px] ">
+        <div>
+          <a href="#" class="lg:font-[poppins] lg:ms-[160px] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] font-[poppins] ms-[10px] font-[500] text-[12px] leading-[40px] text-[#282938] lg:ps-0 ps-[35%] dark:text-[#ececec]">Copyright 2021, Finsweet.com</a>
+        </div>
+        <div class="lg:flex lg:gap-x-[32px] flex gap-x-[32px] items-center justify-center">
+          <a href="#" class="lg:font-[poppins] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] font-[poppins] font-[500] text-[12px] leading-[20px] ms-[10px] text-[#282938] dark:text-[#ececec]">Home</a>
+          <a href="#" class="dark:text-[#ececec] lg:font-[poppins] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] font-[poppins] font-[500] text-[12px] leading-[20px] text-[#282938]">About Us</a>
+          <a href="#" class="dark:text-[#ececec] lg:font-[poppins] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] font-[poppins] font-[500] text-[12px] leading-[20px] text-[#282938]">Features</a>
+          <a href="#" class="dark:text-[#ececec] lg:font-[poppins] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] font-[poppins] font-[500] text-[12px] leading-[20px] text-[#282938]">Pricing</a>
+          <a href="#" class="dark:text-[#ececec] lg:font-[poppins] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] font-[poppins] font-[500] text-[12px] leading-[20px] text-[#282938]">FAQ</a>
+          <a href="#" class="dark:text-[#ececec] lg:font-[poppins] lg:font-[500] lg:text-[16px] lg:leading-[28px] lg:text-[#282938] lg:pe-[100px] font-[poppins] font-[500] text-[12px] leading-[2px] text-[#282938]">Blog</a>
+          </div>
+      </div>
+    </div>
+    <script>
+      let btn=document.querySelector(".btn");
+      btn.addEventListener("click",function(){
+        document.body.classList.toggle("dark");
+      });
+    </script>
+</body>
+</html>

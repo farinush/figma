@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+@font-face {
+    font-family: poppins;
+    src: url(../fonts/Poppins-Medium.eot);
+    src: url(../fonts/Poppins-Medium.ttf);
+    src: url(../fonts/Poppins-Medium.woff);
+    src: url(../fonts/Poppins-Medium.woff2);
+    
+}
+@font-face {
+    font-family: poppinsL;
+    src: url(../fonts/Poppins-Light.eot);
+    src: url(../fonts/Poppins-Light.ttf);
+    src: url(../fonts/Poppins-Light.woff);
+    src: url(../fonts/Poppins-Light.woff2);
+    
+}
+@font-face {
+    font-family: poppinsR;
+    src: url(../fonts/Poppins-Regular.eot);
+    src: url(../fonts/Poppins-Regular.ttf);
+    src: url(../fonts/Poppins-Regular.woff);
+    src: url(../fonts/Poppins-Regular.woff2);
+    
+}
+@layer base{
+    .wrapper{
+        width: 100%;
+        
+    }
+}
+
+
+@layer utilities{
+   #show:checked ~ .navparent{
+    left: 0;
+   }
+   #close:checked ~ .navparent{
+    left: -100%;
+   }
+}
